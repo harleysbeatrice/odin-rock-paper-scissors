@@ -1,0 +1,41 @@
+.title h1{
+    display:flex;
+    justify-content: center;
+}
+
+.display {
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    margin-bottom:20px;
+}
+
+#score-box {
+    display:flex;
+    /* flex-direction: column; */
+    flex-basis:200px;
+    justify-content:space-around;
+}
+
+.interface {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+button {
+    margin:50px;
+    margin-top:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
