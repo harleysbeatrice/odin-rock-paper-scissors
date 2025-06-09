@@ -43,7 +43,7 @@ function playGame(playerMove) {
     } else {
         compScore += 1;
         let log = document.createElement("li");
-        log.textContent = `You Lose! ${human} beats ${comp}. \nYour Score: ${humanScore} \nComputer's Score: ${compScore}`
+        log.textContent = `You Lose! ${comp} beats ${human}. \nYour Score: ${humanScore} \nComputer's Score: ${compScore}`
         if (logList.childElementCount >= 5) {
             logList.lastElementChild.remove();
         }
